@@ -10,10 +10,7 @@ def uconvert(nums):
 
 def nround(x, prec):
 	prec = float(prec)+1e-100
-	if x >= 0:
-		corr = .5
-	else:
-		corr = -.5
+	corr = .5-(x<0)
 	return int(x/prec+corr)*prec
 
 def codeblock(text, cmatrix):
