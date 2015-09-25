@@ -1,4 +1,4 @@
 Lossy-Text-Compression
 ======================
 
-a lossy text compression simulator
+A lossy text compression proof of concept
